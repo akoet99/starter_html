@@ -1,4 +1,4 @@
-body{
+/* body{
     color:rgb(1, 1, 50);
     background:#b5e0b8;
 }
@@ -11,4 +11,26 @@ h2, h3{
     font-size: larger;
     font-family:'Courier New', Courier, monospace;
     color:black;
+} */
+nav li{
+    display:inline;
+    padding-right:20px;
 }
+nav{
+    background-color: #C8A2C8;
+    text-align: center;
+    font-size: xx-large;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav a.current{
+    text-decoration: wavy underline;
+}
+.skip{
+    position: relative;
+    bottom: 40px;
+}
+
